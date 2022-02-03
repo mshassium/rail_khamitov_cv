@@ -1,5 +1,5 @@
 (() => {
-  const careerStartDate = new Date('2015-05-01');
+  const careerStartDate = new Date('2013-12-23');
   const currentDate = new Date();
   const experience = Math.round(currentDate.getFullYear() - careerStartDate.getFullYear());
   const now = {
@@ -9,65 +9,71 @@
   const iconsSizes = [16, 48, 72, 76, 96, 120, 128, 144, 152, 180, 192, 256, 384, 512];
   const contacts = [
     {
-      url: 'tel:+79062824201',
+      url: 'tel:+79878100807',
       label: 'Phone',
       iconClass: 'phone.svg',
-      text: '+7 906 282 42 01'
+      text: '+7 987 810 08 07'
     },
     {
-      url: 'mailto:mail@artik.me',
+      url: 'mailto:khamitov.rail.r@gmail.com',
       label: 'Email',
       iconClass: 'email.svg',
-      text: 'mail@artik.me'
+      text: 'khamitov.rail.r@gmail.com'
     },
     {
-      url: 'https://github.com/Artik-Man',
+      url: 'https://github.com/mshassium',
       label: 'GitHub',
       iconClass: 'github.svg',
       text: 'GitHub',
-      fullText: 'github.com/Artik-Man'
+      fullText: 'github.com/mshassium'
     },
   ];
   const projects = [
     {
-      title: 'HTML Practice',
-      url: 'https://artik-man.github.io/HTML-Practice/',
+      title: 'YouLook',
+      url: 'https://youlook.ru/)',
       picture: 'html-practice',
-      contribution: '[Personal project] This is book is for my students. Front end development, print/book layout.',
-      techList: ['SamuraiJS', 'TypeScript', 'Sass', 'Nunjucks']
+      contribution: 'Cloud video surveillance service',
+      responsibility: ['Improving main code logic', 'Adding new functional'],
+      techList: ['Java 6', 'SonarCube', 'Tomcat', 'AngularJS']
     },
     {
-      title: 'Material Theme Creator',
-      url: 'https://artik-man.github.io/material-theme-creator/',
+      title: 'Cloud solution for VIVO Brasil company',
+      url: '',
       picture: 'material-theme-creator',
-      contribution: '[Personal project] This library is designed to converting Angular Material themes to CSS Custom Properties (CSS Variables). In addition, you can create a Material-like theme from one color.',
-      techList: ['Sass', 'CSS Custom Properties', 'Angular Material']
+      contribution: '[Team Lead] Cloud solution to form quote new B2B customer',
+      responsibility: [],
+      techList: ['Java 8', 'Spring Boot', 'Elastic', 'Kafka', 'Spring Reactor', 'Spring Boot', 'Axen Framework', 'Angular', 'Openshift']
     },
     {
-      title: 'SamuraiJS',
-      url: 'https://artik-man.github.io/SamuraiJS/',
+      title: 'B2B/B2C solution for Telecom Malaysia',
+      url: '',
       picture: 'samuraijs',
-      contribution: '[Personal project] Super simple Nunjucks + TypeScript + Sass builder primarily for static sites.',
-      techList: ['Nunjucks', 'TypeScript', 'Sass', 'NodeJS']
+      contribution: '[Team Lead] Full-stack solution with Customer Portal (Liferay/Java/Docker/Angular), Digital Marketplace and Backend on Weblogic server (Inventory/Order management/ Customer Information Management / Contract management functional)',
+      responsibility: [],
+      techList: ['Java 8', 'Spring 4', 'Docker', 'Liferay', 'Angular']
     },
     {
-      title: 'Simple Date parser',
-      url: 'https://artik-man.github.io/simple-date-parser/',
+      title: 'Voice assistance (Alexa, Alisa) for B2B and B2C customers',
+      url: '',
       picture: 'simple-date-parser',
-      contribution: '[Personal project] Parse strings into JS Date.',
-      techList: ['JavaScript']
+      contribution: '[Product owner/ Contributor] The solution is to demonstrate the possibilities of internal systems with conjunction voice assistance (Alexa, Alisa).',
+      responsibility: [],
+      techList: ['Java 11', 'Spring boot', 'Vaadin', 'Heroku', 'Amazon Alexa API']
     },
     {
-      title: 'Q.Palette',
-      url: 'https://qpalette.diasoft.ru/',
+      title: 'Prepare new team member in education centre NC',
+      url: 'https://sar.edu-netcracker.com/',
       picture: 'qpalette',
-      contribution: 'Development of a design system and framework that allows you to use several web applications on one page in the form of web-components',
-      techList: ['Angular', 'TypeScript', 'Web-Components']
+      contribution: 'Developing process from lecturing to writing a full-fledged project and hiring.',
+      responsibility: [],
+      techList: []
     },
     {
-      title: 'Kaspersky Lab: Tailored Intelligence Reporting System',
+      title: 'BSS/OSS solution for international Telecom companies',
       picture: 'kaspersky',
-      contribution: 'Front end development of internal data collection/analysis portal for the analytical department.',
+      contribution: '',
+      responsibility: [],
       techList: ['Angular', 'TypeScript', 'WebSocket']
     },
     {
@@ -128,76 +134,64 @@
   ];
   const lifeline = [
     {
-      title: 'Northern (Arctic) Federal University',
-      url: 'https://narfu.ru',
+      title: 'Saratov State University',
+      url: 'https://www.sgu.ru/',
       text: `
-    <p>Institute of Mathematics, Information and Space Technologies</p>
+    <p>Faculty of Computer Science and Information Technologies</p>
     <p><b>Bachelor's degree</b></p>
     `,
-      from: {year: 2012, month: 9},
-      to: {year: 2016, month: 6}
+      from: {year: 2011, month: 9},
+      to: {year: 2015, month: 8}
     },
     {
-      title: 'Northern (Arctic) Federal University',
-      url: 'https://narfu.ru',
-      text: `
-    <p>Higher School of Information Technologies and Automated Systems</p>
-    <p><b>Master's degree</b></p>
-    `,
-      from: {year: 2016, month: 9},
-      to: {year: 2018, month: 6}
+      title: 'Soft Dynamics',
+      url: 'https://youlook.ru',
+      text: '<p>Junior System Administrator / Junior Java Developer</p>',
+      from: {year: 2012, month: 11},
+      to: {year: 2013, month: 9},
+//      classes: 'no-print'
     },
     {
-      title: 'Webmaster Courses',
-      from: {year: 2014, month: 2},
-      to: {year: 2014, month: 7},
-      classes: 'no-print'
+      title: 'NetCracker',
+      url: 'https://www.netcracker.com',
+      text: '<p>Junior Java Developer</p>',
+      from: {year: 2013, month: 12},
+      to: {year: 2014, month: 7}
     },
     {
-      title: 'PrimePix',
-      url: 'http://primepix.ru',
-      text: '<p>Junior Frontend Developer</p>',
-      from: {year: 2015, month: 5},
-      to: {year: 2016, month: 5}
+      title: 'NetCracker',
+      url: 'https://www.netcracker.com',
+      text: '<p>Middle Java Developer</p>',
+      from: {year: 2014, month: 8},
+      to: {year: 2015, month: 12}
     },
     {
-      title: 'Hashboard',
-      url: 'https://hashboard.ru',
-      text: '<p>Frontend Developer</p>',
-      from: {year: 2016, month: 6},
-      to: {year: 2017, month: 4}
+      title: 'NetCracker',
+      url: 'https://www.netcracker.com',
+      text: '<p>Senior Java Developer</p>',
+      from: {year: 2016, month: 1},
+      to: {year: 2018, month: 12}
     },
     {
-      title: 'Luxoft',
-      url: 'https://luxoft.com',
-      text: '<p>Senior Frontend Developer</p>',
-      from: {year: 2017, month: 5},
-      to: {year: 2018, month: 5}
+      title: 'NetCracker',
+      url: 'https://www.netcracker.com',
+      text: '<p>Team Lead</p>',
+      from: {year: 2019, month: 1},
+      to: {year: 2020, month: 8}
     },
     {
-      title: 'HTML Academy',
-      url: 'https://htmlacademy.ru',
-      text: `
-    <p><b>Mentor</b></p>
-    <p>I taught HTML, CSS, and Javascript</p>
-    `,
-      from: {year: 2020, month: 3},
-      to: {year: 2021, month: 5}
+      title: 'Yandex',
+      url: 'https://yandex.ru',
+      text: '<p>Java Developer</p>',
+      from: {year: 2020, month: 10},
+      to: {year: 2021, month: 11}
     },
     {
-      title: 'Kaspersky Lab.',
-      url: 'https://kaspersky.com',
-      text: '<p>Developer</p>',
-      from: {year: 2018, month: 6},
+      title: 'Weigandt Consulting',
+      url: 'https://weigandt-consulting.com',
+      text: '<p>Senior Java Developer</p>',
+      from: {year: 2021, month: 11},
       to: now
-    },
-    {
-      title: 'Diasoft',
-      url: 'https://www.diasoft.ru/',
-      text: '<p>Lead Software Engineer</p>',
-      from: {year: 2021, month: 6},
-      to: now,
-      classes: 'fix-start'
     }
   ];
   const yMin = Math.min(...lifeline.map(p => p.from.year));
@@ -205,10 +199,10 @@
   const years = new Array(yMax - yMin + 1).fill(0).map((x, i) => yMax - i);
   const months = `January,February,March,April,May,June,July,August,September,October,November,December`.split(',');
   const meta = {
-    title: 'Artik Man — frontend-developer',
-    full_name: 'Artik Man',
-    name: 'Artik',
-    description: `Frontend developer with over ${experience} years of experience. Current stack: TypeScript + Angular`,
+    title: 'Khamitov Rail\' — Java software engineer',
+    full_name: 'Khamitov Rail\'',
+    name: 'Rail\'',
+    description: `Java software engineer with over ${experience} years of experience. Current stack: Java16 + Spring Framework + Kafka + Microsoft Azure`,
     url: 'https://artik.me',
     card: 'assets/images/icons/card.png',
     color: '#10272f'

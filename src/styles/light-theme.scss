@@ -50,13 +50,13 @@
 }
 
 @mixin light-theme {
-  --primary-h: 195;
-  --primary-s: 0;
-  --primary-l: 95;
+  --primary-h: 40;
+  --primary-s: 93;
+  --primary-l: 94;
 
-  --accent-h: 195;
-  --accent-s: 49;
-  --accent-l: 12;
+  --accent-h: 193;
+  --accent-s: 100;
+  --accent-l: 10;
 }
 
 html.light {

@@ -31,106 +31,61 @@
   const projects = [
     {
       title: 'YouLook',
-      url: 'https://youlook.ru/)',
-      picture: 'html-practice',
+      url: 'https://youlook.ru',
+      picture: 'youlook',
       contribution: 'Cloud video surveillance service',
       responsibility: ['Improving main code logic', 'Adding new functional'],
       techList: ['Java 6', 'SonarCube', 'Tomcat', 'AngularJS']
     },
     {
-      title: 'Cloud solution for VIVO Brasil company',
+      title: 'Cloud solution for VIVO Brazil company',
       url: '',
-      picture: 'material-theme-creator',
+      picture: 'vivobrazil',
       contribution: '[Team Lead] Cloud solution to form quote new B2B customer',
-      responsibility: [],
       techList: ['Java 8', 'Spring Boot', 'Elastic', 'Kafka', 'Spring Reactor', 'Spring Boot', 'Axen Framework', 'Angular', 'Openshift']
     },
     {
       title: 'B2B/B2C solution for Telecom Malaysia',
       url: '',
-      picture: 'samuraijs',
+      picture: 'telecommalaysia',
       contribution: '[Team Lead] Full-stack solution with Customer Portal (Liferay/Java/Docker/Angular), Digital Marketplace and Backend on Weblogic server (Inventory/Order management/ Customer Information Management / Contract management functional)',
-      responsibility: [],
       techList: ['Java 8', 'Spring 4', 'Docker', 'Liferay', 'Angular']
     },
     {
       title: 'Voice assistance (Alexa, Alisa) for B2B and B2C customers',
       url: '',
-      picture: 'simple-date-parser',
+      picture: 'alexa',
       contribution: '[Product owner/ Contributor] The solution is to demonstrate the possibilities of internal systems with conjunction voice assistance (Alexa, Alisa).',
-      responsibility: [],
       techList: ['Java 11', 'Spring boot', 'Vaadin', 'Heroku', 'Amazon Alexa API']
+    },
+    {
+      title: 'BSS/OSS solution for international Telecom companies',
+      picture: 'netcracker',
+      contribution: 'Creation of new functionality for large international companies',
+      techList: ['GWT', 'Java', 'Spring Boot', 'Docker']
+    },
+    {
+      title: 'Loyalty service in Yandex Market',
+      url: 'https://market.yandex.ru',
+      picture: 'yandex_market',
+      contribution: 'Service for applying a lot of loyalty mechanics for users (cashback, promo, coupon etc.). High availability service. More 20 nodes into 4 datacenters. Distributed Database.',
+      responsibility: ['Team member'],
+      techList: ['Java 11', 'Spring Framework 5', 'QueryDSL', 'Liquibase', 'Memcache', 'Postgres']
+    },
+    {
+      title: 'TESCO Finance domain project',
+      url: 'https://www.tesco.com',
+      picture: 'weigandt',
+      contribution: 'Services for processing customers payment actions (processing, validation, generation statistics)',
+      responsibility: ['Team member'],
+      techList: ['Java 11', 'Spring Boot', 'Hibernate', 'Postgres', 'Kafka', 'Azure Cloud', 'Docker', 'Kubernetes', 'Splunk', 'Jenkins', 'Git']
     },
     {
       title: 'Prepare new team member in education centre NC',
       url: 'https://sar.edu-netcracker.com/',
-      picture: 'qpalette',
-      contribution: 'Developing process from lecturing to writing a full-fledged project and hiring.',
-      responsibility: [],
-      techList: []
+      picture: 'netcracker',
+      contribution: 'Developing process from lecturing to writing a full-fledged project and hiring.'
     },
-    {
-      title: 'BSS/OSS solution for international Telecom companies',
-      picture: 'kaspersky',
-      contribution: '',
-      responsibility: [],
-      techList: ['Angular', 'TypeScript', 'WebSocket']
-    },
-    {
-      title: 'WebSocket Post Server',
-      url: 'https://github.com/Artik-Man/ws-post-server',
-      picture: 'wsps',
-      contribution: '[Personal project] Back end development of simple WebSocket Server',
-      techList: ['Node.js', 'WebSocket', 'Express.js']
-    },
-    {
-      title: 'Hiddens',
-      url: 'https://github.com/Artik-Man/hiddens',
-      picture: 'hiddens',
-      contribution: '[Personal project] Front end development of simple chat, based on WebSocket Post Server',
-      techList: ['Angular', 'WebSocket', 'Hammer.js']
-    },
-    {
-      title: 'Kaspersky Lab: Managed Protection',
-      picture: 'kmp',
-      contribution: 'Front end development of threat-hunting sequrity service.',
-      techList: ['Angular', 'TypeScript', 'Webpack']
-    },
-    {
-      title: 'Hashboard cabinet',
-      url: 'https://new.hashboard.ru/cabinet/',
-      picture: 'hashboard-cabinet',
-      contribution: 'Front end development of #hashboard service. This web application uses client-side localization, HTML5 Audio/Video, the combination of AngularJS + RequireJS + REST API.',
-      techList: ['AngularJS', 'RequireJS', 'REST']
-    },
-    {
-      title: 'Hashboard player',
-      url: 'https://new.hashboard.ru/play/?login=artik@hb.ru',
-      picture: 'hashboard-player',
-      contribution: 'Front end development of #hashboard service. This web application uses HTML5 Video and Audio, handles internet-connection troubles. Web site has a fluid layout.',
-      techList: ['jQuery', 'RequireJS', 'REST']
-    },
-    {
-      title: 'Hashboard',
-      url: 'https://hashboard.ru',
-      picture: 'hashboard',
-      contribution: 'Front end development of #hashboard service. Cross-browser code, responsive layout, Website localization.',
-      techList: ['jQuery', 'Bootstrap', 'LESS']
-    },
-    {
-      title: 'Pricereporter',
-      url: 'http://primepix.ru/portfolio/mgrabber/',
-      picture: 'pr',
-      contribution: 'Front end web development and technical support of a commercial site',
-      techList: ['jQuery', 'Bootstrap', 'Bitrix']
-    },
-    {
-      title: 'Artik.me',
-      url: 'https://github.com/Artik-Man/artik.me',
-      picture: 'artik',
-      contribution: '[Personal project] Full cycle of development of web page: from design to caching with ServiceWorker',
-      techList: ['SamuraiJS', 'ServiceWorker', 'CSS Custom Properties']
-    }
   ];
   const lifeline = [
     {
